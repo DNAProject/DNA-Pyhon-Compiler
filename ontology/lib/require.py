@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: LGPL-3.0-or-later
+# Copyright 2019 DNA Dev team
+# Copyright 2018 Ontology Dev team
+#
 def Require(expr, message="There was an error"):
     '''
     Raises an exception if the given expression is false.

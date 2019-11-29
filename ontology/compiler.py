@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: LGPL-3.0-or-later
+# Copyright 2019 DNA Dev team
+# Copyright 2018 Ontology Dev team
+#
 import os
 from ontology import __version__
 from ontology.code.CodeGenerate_By_Ast import CodeGenerate
