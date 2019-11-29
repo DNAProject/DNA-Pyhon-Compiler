@@ -6,15 +6,15 @@ when attendee count reach max of this game round,
 game will generate a random number and send all the ONGs to the selected attendee
 This round Game end
 """
-from ontology.interop.System.Storage import *
-from ontology.interop.System.ExecutionEngine import *
-from ontology.interop.System.Runtime import *
-from ontology.interop.Ontology.Runtime import *
-from ontology.interop.System.Blockchain import GetHeight, GetHeader, GetBlock
-from ontology.interop.System.Header import *
-from ontology.interop.Ontology.Native import *
-from ontology.builtins import state, sha256, concat
-from ontology.builtins import *
+from DNA.interop.System.Storage import *
+from DNA.interop.System.ExecutionEngine import *
+from DNA.interop.System.Runtime import *
+from DNA.interop.DNA.Runtime import *
+from DNA.interop.System.Blockchain import GetHeight, GetHeader, GetBlock
+from DNA.interop.System.Header import *
+from DNA.interop.DNA.Native import *
+from DNA.builtins import state, sha256, concat
+from DNA.builtins import *
 contractAddress = bytearray(b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02')
 ctx = GetContext()
 selfAddr = GetExecutingScriptHash()

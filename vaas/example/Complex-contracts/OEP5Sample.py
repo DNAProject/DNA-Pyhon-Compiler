@@ -1,11 +1,11 @@
-from ontology.builtins import *
+from DNA.builtins import *
 
 
-from ontology.interop.System.Storage import GetContext, Get, Put, Delete
-from ontology.interop.System.Runtime import CheckWitness, GetTime, Notify, Serialize, Deserialize
-from ontology.interop.System.ExecutionEngine import GetExecutingScriptHash
-from ontology.builtins import ToScriptHash, sha256, concat
-from ontology.interop.Ontology.Runtime import Base58ToAddress
+from DNA.interop.System.Storage import GetContext, Get, Put, Delete
+from DNA.interop.System.Runtime import CheckWitness, GetTime, Notify, Serialize, Deserialize
+from DNA.interop.System.ExecutionEngine import GetExecutingScriptHash
+from DNA.builtins import ToScriptHash, sha256, concat
+from DNA.interop.DNA.Runtime import Base58ToAddress
 # modify to the admin address
 admin = Base58ToAddress('AQf4Mzu1YJrhz9f3aRkkwSm9n3qhXGSh4p')
 

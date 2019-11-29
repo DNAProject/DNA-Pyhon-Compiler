@@ -1,5 +1,5 @@
-OntCversion = '2.0.0'
-from ontology.interop.System.Runtime import Log
+Cversion = '2.0.0'
+from DNA.interop.System.Runtime import Log
 
 def Main(operation, args):
     if operation == 'LogTest':

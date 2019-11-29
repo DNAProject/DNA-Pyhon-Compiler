@@ -19,15 +19,15 @@ here = path.abspath(path.dirname(__file__))
 
 
 setup(
-    name='ontology-python-compiler',
+    name='DNA-python-compiler',
 
     version='1.0.0',
 
-    description='A Python compiler for Ontology',
-    long_description='A Python compiler for Ontology',
+    description='A Python compiler for DNA',
+    long_description='A Python compiler for DNA',
 
     # The project's main homepage.
-    url='https://github.com/ontio/ontology-python-compiler',
+    url='https://github.com/DNAProject/DNA-python-compiler',
 
     # Author details
     author='steven',
@@ -58,7 +58,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='compiler .avm blockchain smartcontract development dApp for ontology',
+    keywords='compiler .avm blockchain smartcontract development dApp for DNA blockchain',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().

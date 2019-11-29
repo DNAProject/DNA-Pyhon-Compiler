@@ -8,7 +8,7 @@ import getopt
 import sys
 import subprocess
 import os
-from ontology.compiler import Compiler
+from DNA.compiler import Compiler
 
 filename = None
 runmode = 0

@@ -13,7 +13,7 @@ def binarySearch(arr, first, last, element):
     else:
         print("Element is not present in array")
 
-from ontology.builtins import *
+from DNA.builtins import *
 def Main():
     arr = [2,3,4,5,6]
     element = 2

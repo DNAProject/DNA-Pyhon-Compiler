@@ -1,5 +1,5 @@
 OntCversion = '2.0.0'
-from ontology.builtins import range, print, throw_if_null
+from DNA.builtins import range, print, throw_if_null
 
 def VaasAssert(expr):
     if not expr:

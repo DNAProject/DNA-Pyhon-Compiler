@@ -1,5 +1,5 @@
-from ontology.interop.System.Storage import Put, GetContext, Get
-from ontology.builtins import *
+from DNA.interop.System.Storage import Put, GetContext, Get
+from DNA.builtins import *
 
 def _concatkey(str1, str2):
     return concat(concat(str1, '_'), str2)

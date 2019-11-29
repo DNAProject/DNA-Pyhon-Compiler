@@ -1,5 +1,5 @@
-from ontology.builtins import *
-import ontology.builtins
+from DNA.builtins import *
+import DNA.builtins
 
 def Main():
     a = 20

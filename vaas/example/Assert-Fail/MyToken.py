@@ -1,10 +1,10 @@
-from ontology.builtins import *
+from DNA.builtins import *
 
-from ontology.interop.Ontology.Runtime import Base58ToAddress
-from ontology.interop.System.Storage import GetContext, Get, Put, Delete
-from ontology.interop.System.Runtime import Notify, CheckWitness
-from ontology.interop.System.Action import RegisterAction
-from ontology.builtins import concat
+from DNA.interop.DNA.Runtime import Base58ToAddress
+from DNA.interop.System.Storage import GetContext, Get, Put, Delete
+from DNA.interop.System.Runtime import Notify, CheckWitness
+from DNA.interop.System.Action import RegisterAction
+from DNA.builtins import concat
 
 TransferEvent = RegisterAction("transfer", "from", "to", "amount")
 ApprovalEvent = RegisterAction("approval", "owner", "spender", "amount")

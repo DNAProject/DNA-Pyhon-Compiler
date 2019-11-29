@@ -1,5 +1,5 @@
 OntCversion = '2.0.0'
-import ontology.builtins
+import DNA.builtins
 a = 'hello'
 b = 'world'
 c = 'c'

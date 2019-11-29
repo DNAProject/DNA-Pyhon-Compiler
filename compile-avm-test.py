@@ -4,11 +4,11 @@
 # Copyright 2019 DNA Dev team
 # Copyright 2018 Ontology Dev team
 #
-from ontology.compiler import Compiler
+from DNA.compiler import Compiler
 
 def CompileContract():
-    sc = """OntCversion = '2.0.0'
-from ontology.interop.System.Runtime import Log
+    sc = """Cversion = '2.0.0'
+from DNA.interop.System.Runtime import Log
 
 def Main(operation, args):
     if operation == 'LogTest':

@@ -19,11 +19,11 @@ Below is the current implementation in Python
 
 """
 
-from ontology.interop.System.Runtime import Log, CheckWitness
-from ontology.interop.System.Action import RegisterAction
-from ontology.interop.System.Storage import GetContext, Get, Put, Delete
-from ontology.builtins import concat
-from ontology.builtins import *
+from DNA.interop.System.Runtime import Log, CheckWitness
+from DNA.interop.System.Action import RegisterAction
+from DNA.interop.System.Storage import GetContext, Get, Put, Delete
+from DNA.builtins import concat
+from DNA.builtins import *
 
 DispatchTransferEvent = RegisterAction('transfer', 'from', 'to', 'amount')
 

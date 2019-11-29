@@ -1,9 +1,9 @@
-from ontology.interop.System.Runtime import Notify
-from ontology.interop.System.Blockchain import GetHeight, GetHeader, GetBlock
-from ontology.interop.System.Storage import GetContext, Get, Put, Delete
-from ontology.interop.System.Header import *
-from ontology.interop.System.Runtime import CheckWitness, GetTime, Notify, Serialize, Deserialize, Log
-from ontology.builtins import *
+from DNA.interop.System.Runtime import Notify
+from DNA.interop.System.Blockchain import GetHeight, GetHeader, GetBlock
+from DNA.interop.System.Storage import GetContext, Get, Put, Delete
+from DNA.interop.System.Header import *
+from DNA.interop.System.Runtime import CheckWitness, GetTime, Notify, Serialize, Deserialize, Log
+from DNA.builtins import *
 CONSTANT_LIST = [0, 1, 2, 3, 4]
 TOKEN_ID_LIST = b'\x01\x02\x03\x04\x05\x06\x07\x08'
 def Main(op,args):

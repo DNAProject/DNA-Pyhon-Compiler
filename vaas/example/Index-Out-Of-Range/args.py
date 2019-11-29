@@ -1,7 +1,7 @@
-from ontology.interop.Ontology.Contract import Migrate
-from ontology.interop.System.Contract import Destroy
-from ontology.interop.System.Runtime import Notify
-from ontology.builtins import *
+from DNA.interop.DNA.Contract import Migrate
+from DNA.interop.System.Contract import Destroy
+from DNA.interop.System.Runtime import Notify
+from DNA.builtins import *
 
 def Main(operation, args):
     if operation == "DestroyContract":

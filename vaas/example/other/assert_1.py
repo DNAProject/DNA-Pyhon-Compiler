@@ -1,5 +1,5 @@
 #!/usr/bin/eny python3
-import ontology.builtins
+import DNA.builtins
 def Main(operation, args):
     VaasAssert(operation == args)
     a = []

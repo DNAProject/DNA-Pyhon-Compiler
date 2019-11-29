@@ -1,10 +1,10 @@
 OntCversion = '2.0.0'
-#from ontology.interop.System.Runtime import *
-from ontology.interop.System.Runtime import Log
-from ontology.builtins import print, Exception, throw_if_null, remove
+#from DNA.interop.System.Runtime import *
+from DNA.interop.System.Runtime import Log
+from DNA.builtins import print, Exception, throw_if_null, remove
 
 def Require(condition):
-    #ontology.interop.System.Runtime.Log("hello steven")
+    #DNA.interop.System.Runtime.Log("hello steven")
     if not condition:
         Revert()
     return True

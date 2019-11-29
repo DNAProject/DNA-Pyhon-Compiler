@@ -1,5 +1,5 @@
-from ontology.builtins import *
-from ontology.builtins import concat
+from DNA.builtins import *
+from DNA.builtins import concat
 
 def Main(operation, idx1, idx2):
 

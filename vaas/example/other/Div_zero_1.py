@@ -1,5 +1,5 @@
 #!/usr/ben/env python3
-import ontology.builtins
+import DNA.builtins
 
 def Main(operation, args):
     b = 40

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import ontology.builtins
+import DNA.builtins
 
 def Main(x):
     a = 20

@@ -1,4 +1,4 @@
-from ontology.builtins import *
+from DNA.builtins import *
 """
 You can import this file and methods in your smart contract,
 you can also add safe math methods within this function based on your needs.

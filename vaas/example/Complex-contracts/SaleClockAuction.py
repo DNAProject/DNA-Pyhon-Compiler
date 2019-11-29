@@ -1,9 +1,9 @@
-from ontology.interop.System.Storage import GetContext, Get, Put, Delete
-from ontology.interop.System.Runtime import CheckWitness, GetTime, Notify, Serialize, Log,Deserialize
-from ontology.interop.System.ExecutionEngine import GetExecutingScriptHash
-from ontology.interop.Ontology.Native import Invoke
-from ontology.builtins import *
-from ontology.interop.Ontology.Runtime import Base58ToAddress
+from DNA.interop.System.Storage import GetContext, Get, Put, Delete
+from DNA.interop.System.Runtime import CheckWitness, GetTime, Notify, Serialize, Log,Deserialize
+from DNA.interop.System.ExecutionEngine import GetExecutingScriptHash
+from DNA.interop.DNA.Native import Invoke
+from DNA.builtins import *
+from DNA.interop.DNA.Runtime import Base58ToAddress
 
 adminAddress = Base58ToAddress("AY5ZBb7qtjdnp3ChweqMqcXdavCJVqXj7F")
 ctx = GetContext()

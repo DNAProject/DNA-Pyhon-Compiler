@@ -1,6 +1,6 @@
 OntCversion = '2.0.0'
-from ontology.builtins import print
-from ontology.libont import bytes2hexstring, hexstring2bytes, elt_in
+from DNA.builtins import print
+from DNA.libont import bytes2hexstring, hexstring2bytes, elt_in
 
 def VaasAssert(expr):
     if not expr:

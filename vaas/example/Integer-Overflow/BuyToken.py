@@ -1,8 +1,8 @@
-from ontology.interop.System.Storage import *
-from ontology.builtins import *
-from ontology.interop.System.Runtime import CheckWitness, GetTime, Notify, Serialize, Log
-from ontology.interop.System.ExecutionEngine import GetExecutingScriptHash, GetCallingScriptHash, GetEntryScriptHash
-from ontology.interop.Ontology.Native import Invoke
+from DNA.interop.System.Storage import *
+from DNA.builtins import *
+from DNA.interop.System.Runtime import CheckWitness, GetTime, Notify, Serialize, Log
+from DNA.interop.System.ExecutionEngine import GetExecutingScriptHash, GetCallingScriptHash, GetEntryScriptHash
+from DNA.interop.DNA.Native import Invoke
 TOKEN_NAME = 'Muzika Token'
 TOKEN_SYMBOL = 'MZK'
 

@@ -1,14 +1,14 @@
 """
 An Example of OEP-4
 """
-from ontology.interop.System.Storage import GetContext, Get, Put, Delete
-from ontology.interop.System.Runtime import Notify, CheckWitness
-from ontology.interop.System.Action import RegisterAction
-from ontology.builtins import concat
-from ontology.builtins import *
+from DNA.interop.System.Storage import GetContext, Get, Put, Delete
+from DNA.interop.System.Runtime import Notify, CheckWitness
+from DNA.interop.System.Action import RegisterAction
+from DNA.builtins import concat
+from DNA.builtins import *
 TransferEvent = RegisterAction("transfer", "from", "to", "amount")
 ApprovalEvent = RegisterAction("approval", "owner", "spender", "amount")
-from ontology.interop.Ontology.Runtime import Base58ToAddress
+from DNA.interop.DNA.Runtime import Base58ToAddress
 ctx = GetContext()
 
 FACTOR = 100000000

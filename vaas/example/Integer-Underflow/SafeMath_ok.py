@@ -3,7 +3,7 @@
 You can import this file and methods in your smart contract,
 you can also add safe math methods within this function based on your needs.
 """
-from ontology.builtins import *
+from DNA.builtins import *
 def Revert():
     """
     Revert the transaction. The opcodes of this function is `09f7f6f5f4f3f2f1f000f0`,
