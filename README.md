@@ -1,30 +1,21 @@
-
 <p align="center">
-  <img
-    src="ontologypic.png"
-    width="125px;">
+  Python SmartContract Compiler for DNA
 </p>
 
-<h1 align="center">Neptune</h1>
-<p align="center">
-  Python compiler for Ontology
-</p>
-
-[![Build Status](https://travis-ci.com/ontio/ontology-python-compiler.svg?branch=master)](https://travis-ci.com/ontio/ontology-python-compiler)
 - Free software: LGPL license
-  - [Overview](#overview)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
+  - [Overview](#Overview)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
   - [DebugInfo](#DebugInfo)
 
 ## Overview
 
-`Neptune` is a tool for compiling Python files to the `.avm` format for usage in smart contracts on the [Ontology blockchain](https://github.com/ontio/ontology/). It currently only supports a subset of the Python language.
+Official python smart contract compiler to compile Python files to the `.avm` format for usage in smart contracts on the [DNA blockchain](https://github.com/DNAProject/DNA/). It currently only supports a subset of the Python language.
 
 #### What does it currently do
 
-- Compiles a subset of the Python language to the `.avm` format for use in the [Ontology blockchain](https://github.com/ontio/ontology)
+- Compiles a subset of the Python language to the `.avm` format for use in the [DNA blockchain](https://github.com/DNAProject/DNA)
 - Works for Python 3.6+
 
 #### What will it do
@@ -32,33 +23,6 @@
 - Compile a larger subset of the Python language
 - Additional syntax checks
 - Optimize instr stream
-
-#### What's new compared to neo-boa
-
-- Basic abstract syntax trees
-- Ability to write numerous expressions per line. [(See Example)](ontology_test/example/OffChainOp/test_while2.py)
-- `global` keyword, works the same as [global](https://www.programiz.com/python-programming/global-keyword) in the standard python library. Allows functions to share variables. [(See Example #1)](ontology_test/example/ChainOp/test_global_and_appcall.py) [(See Example #2)](ontology_test/example/OffChainOp/test_global.py)
-- Cascade bool operation. [(See Example)](ontology_test/example/OffChainOp/test_boolop_origin.py)
-- Augmented assignment operators such as `+= *= /= -=` [(See Example)](ontology_test/example/OffChainOp/test_iterate.py)
-- [Chained comparisons](https://www.geeksforgeeks.org/chaining-comparison-operators-python/) [(See Example)](ontology_test/example/OffChainOp/test_compare_1.py)
-- [Chained assignment](https://stackoverflow.com/questions/7601823/how-do-chained-assignments-work)
-- Maps nested within maps. [(See Example)](ontology_test/example/OffChainOp/test_dict.py)
-- `if expression` statements. [(See Example)](ontology_test/example/OffChainOp/test_ifexpr.py)
-- `for`, `while`, `break` and `continue`. [(See Example #1)](ontology_test/example/OffChainOp/test_for_1.py) [(See Example #2)](ontology_test/example/OffChainOp/test_while2.py)
-- `if x in y` statements. [(See Example)](ontology_test/example/OffChainOp/test_in.py)
-- `loop else` statements. [(See Example)](ontology_test/example/OffChainOp/test_for_1.py)
-- `range(len), range(start, stop), range(start, stop, step)`. [(See Example)](ontology_test/example/OffChainOp/test_range.py)
-- [Function default argument](https://stackoverflow.com/questions/13195989/default-values-for-function-parameters-in-python) [(See Example)](ontology_test/example/OffChainOp/test_default_vararg.py)
-- [Function variable argument](https://stackoverflow.com/questions/919680/can-a-variable-number-of-arguments-be-passed-to-a-function) [(See Example)](ontology_test/example/OffChainOp/test_default_vararg.py)
-- [Pass Starred argument for function call](https://stackoverflow.com/questions/12555627/python-3-starred-expression-to-unpack-a-list) [(See Example)](ontology_test/example/OffChainOp/test_default_vararg.py)
-- List comprehension. [(See Example)](ontology_test/example/OffChainOp/test_list_com.py)
-- Dict comprehension. [(See Example)](ontology_test/example/OffChainOp/test_dict_com2.py)
-- Conditional operation
-- Assert. [(See Example)](ontology_test/example/OffChainOp/test_split.py)
-- [String slicing](https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3) [(See Example)](ontology_test/example/OffChainOp/test_slice.py)
-- Added [libont.py](ontology/libont.py) to support various list functions such as list removal and element in
-- Additional syntax checks
-- More accurate debug messages
 
 ## Installation
 
@@ -83,7 +47,7 @@ pip install -r requirements.txt
 
 Import the compiler into a file with:
 ```
-from ontology.compiler import Compiler
+from DNA.compiler import Compiler
 ```
 
 The compiler can be used in three different ways:
@@ -117,9 +81,8 @@ You can run the tests using the ```runall.bash``` or ```runall-testing.bash``` f
 
 ## Contributing
 
-Contributors are welcome to the `ontology-python-compiler`. Before beginning, please take a look at our [contributing guidelines](./CONTRIBUTING.md). You can open an issue by [clicking here](https://github.com/ontio/ontology-python-compiler/issues/new).
+Contributors are welcome to the `DNA-python-compiler`. Before beginning, please take a look at our [contributing guidelines](./CONTRIBUTING.md). You can open an issue by [clicking here](https://github.com/DNAProject/DNA-python-compiler/issues/new).
 
-If you have any issues getting setup, open an issue or reach out in the [Ontology Discord](https://discordapp.com/invite/4TQujHj).
 
 ## License
 
