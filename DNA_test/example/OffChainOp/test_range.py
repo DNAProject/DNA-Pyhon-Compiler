@@ -1,4 +1,4 @@
-OntCversion = '2.0.0'
+Cversion = '2.0.0'
 a = range(1,5,2)
 assert(len(a) == 2)
 assert(a[0] == 1)

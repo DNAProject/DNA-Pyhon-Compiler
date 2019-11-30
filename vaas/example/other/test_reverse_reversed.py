@@ -1,4 +1,4 @@
-OntCversion = '2.0.0'
+Cversion = '2.0.0'
 from DNA.builtins import reverse, reversed, print
 
 def VaasAssert(expr):

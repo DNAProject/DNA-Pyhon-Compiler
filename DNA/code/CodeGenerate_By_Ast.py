@@ -190,22 +190,22 @@ class ReWrite_CTX_LOAD_TO_STORE(ast.NodeTransformer):
         return node
 
 
-class CVersion_Visitor(ast.NodeVisitor):
+class Cversion_Visitor(ast.NodeVisitor):
     def __init__(self, codegencontext):
-        self.OntCversion = None
+        self.Cversion = None
         self.codegencontext = codegencontext
 
     def generic_visit(self, node):
         if hasattr(node, 'lineno') and node.lineno == 1:
             if type(node).__name__ == 'Assign' and len(node.targets) == 1 and type(node.targets[0]).__name__ == 'Name' and type(node.value).__name__ == 'Str':
-                self.OntCversion = node.value.s
-                if self.OntCversion != __version__ or node.targets[0].id != 'OntCversion':
-                    Print_Warning_global(self.codegencontext.main_file_path, node, "Place 'OntCversion = '%s'' at 1st line of SmartContract." % (__version__))
+                self.Cversion = node.value.s
+                if self.Cversion != __version__ or node.targets[0].id != 'Cversion':
+                    Print_Warning_global(self.codegencontext.main_file_path, node, "Place 'Cversion = '%s'' at 1st line of SmartContract." % (__version__))
             else:
-                Print_Warning_global(self.codegencontext.main_file_path, node, "Place 'OntCversion = '%s'' at 1st line of SmartContract" % (__version__))
+                Print_Warning_global(self.codegencontext.main_file_path, node, "Place 'Cversion = '%s'' at 1st line of SmartContract" % (__version__))
             return
 
-        Print_Warning_global(self.codegencontext.main_file_path, node, "Place 'OntCversion = '%s'' at 1st line of SmartContract" % (__version__))
+        Print_Warning_global(self.codegencontext.main_file_path, node, "Place 'Cversion = '%s'' at 1st line of SmartContract" % (__version__))
 
     def visit_Module(self, node):
         self.generic_visit(node.body[0])
@@ -2406,7 +2406,7 @@ class CodeGenContext:
         self.Generate_Abi_list(main_func_node)
 
     def Cversion_check(self):
-        Cversion_vistior = CVersion_Visitor(self)
+        Cversion_vistior = Cversion_Visitor(self)
         Cversion_vistior.visit(self.main_astree)
 
     # Convert Func

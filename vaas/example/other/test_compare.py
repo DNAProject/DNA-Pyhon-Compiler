@@ -1,4 +1,4 @@
-OntCversion = '2.0.0'
+Cversion = '2.0.0'
 import DNA.builtins
 def VaasAssert(expr):
     if not expr:

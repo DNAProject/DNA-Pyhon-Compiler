@@ -1,4 +1,4 @@
-OntCversion = '2.0.0'
+Cversion = '2.0.0'
 #!/usr/bin/evn python3
 import DNA.builtins
 def VaasAssert(expr):

@@ -1,4 +1,4 @@
-OntCversion = '2.0.0'
+Cversion = '2.0.0'
 from DNA.libont import bytes2hexstring, hexstring2bytes
 
 

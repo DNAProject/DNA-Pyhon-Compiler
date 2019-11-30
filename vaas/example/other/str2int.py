@@ -1,4 +1,4 @@
-OntCversion = '2.0.0'
+Cversion = '2.0.0'
 from DNA.builtins import print, len
 from DNA.libont import int, elt_in
 

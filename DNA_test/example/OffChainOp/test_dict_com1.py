@@ -1,4 +1,4 @@
-OntCversion = '2.0.0'
+Cversion = '2.0.0'
 # !/usr/bin/env python3
 
 b = {i: j for i in range(1, 5) for j in range(5, 8)}

@@ -1,4 +1,4 @@
-OntCversion = '2.0.0'
+Cversion = '2.0.0'
 from DNA.libont import str, hex
 from DNA.interop.System.App import RegisterAppCall, DynamicAppCall
 from DNA.libont import elt_in, hexstring2bytes, bytearray_reverse

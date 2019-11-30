@@ -1,4 +1,4 @@
-OntCversion = '2.0.0'
+Cversion = '2.0.0'
 #!/usr/bin/env python3
 from DNA.libont import elt_in
 from DNA.builtins import print

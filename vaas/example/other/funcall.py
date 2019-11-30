@@ -1,4 +1,4 @@
-OntCversion = '2.0.0'
+Cversion = '2.0.0'
 #from DNA.interop.System.Runtime import *
 from DNA.interop.System.Runtime import Log
 from DNA.builtins import print, Exception, throw_if_null, remove

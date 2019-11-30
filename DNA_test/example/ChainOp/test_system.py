@@ -1,4 +1,4 @@
-OntCversion = '2.0.0'
+Cversion = '2.0.0'
 from DNA.interop.System.Block import GetTransactionByIndex
 from DNA.interop.System.Blockchain import GetTransactionByHash
 from DNA.interop.System.Header import GetBlockHash

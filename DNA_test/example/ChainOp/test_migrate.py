@@ -1,4 +1,4 @@
-OntCversion = '2.0.0'
+Cversion = '2.0.0'
 from DNA.interop.DNA.Contract import Migrate
 from DNA.interop.System.Runtime import Notify
 from DNA.interop.System.Storage import Put, GetContext, Get

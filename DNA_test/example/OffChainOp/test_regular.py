@@ -1,4 +1,4 @@
-OntCversion = '2.0.0'
+Cversion = '2.0.0'
 nfa_instr_all = []
 bitset = 0
 max_nfa_len = 1024
