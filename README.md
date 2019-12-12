@@ -75,9 +75,17 @@ You can also print out the instr instream:
 compiler.DumpAsm()
 ```
 
+#### CLI
+
+You can use the following command line to compile DNA python smart contract.
+
+```
+python3 run.py -n <smart-contract.py>
+```
+
 #### Testing
 
-You can run the tests using the ```runall.bash``` or ```runall-testing.bash``` files located in ```ontology_test```. You can run the compiler tests using the `compile-avm-test.py` file in the root directory.
+You can run the tests using the ```runall.bash``` or ```runall-testing.bash``` files located in ```DNA_test```. You can run the compiler tests using the `compile-avm-test.py` file in the root directory.
 
 ## Contributing
 
